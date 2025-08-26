@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WebGenics | Freelance AI & Web Solutions</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script defer src="script.js"></script>
+  <style>
+    /* Notification popup styles */
+    #notification {
+      display: none;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #004080;
+      color: white;
+      padding: 16px 24px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      z-index: 9999;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <!-- Logo on Left -->
+  <a class="navbar-brand" href="#welcome">
+    <img src="images/logo.png" alt="WebGenics" class="logo"/>
+  </a>
+
+  <!-- Centered Nav Links -->
+  <ul class="nav">
+    <li><a href="#welcome" class="active">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- Social Icons on Right -->
+  <div class="social-icons">
+    <a href="https://www.instagram.com/webgenics2025/?igsh=aGs0b3U2MmN4NGRx#" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-instagram"></i>
+    <a href="https://www.linkedin.com/in/webgenics-freelancer-a18020381"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://mail.google.com/mail/?view=cm&to=webgenics2025@gmail.com" target="_blank">
+  <i class="fas fa-envelope"></i>
+</a>
+  </div>
+
+  <!-- Hamburger for Mobile -->
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+
+<!-- Welcome -->
+<section id="welcome" class="section welcome">
+  <div class="welcome-text-box">
+    <h1>Welcome to <span class="highlight">WebGenics</span></h1>
+    <p class="slogan">Smart. Simple. AI-powered.</p>
+    
+    <p>
+      We’re a passionate team building smart AI solutions for real-world problems.
+    </p>
+
+    <p>
+      From predictive tools to intelligent web systems, we bring future-ready technology to your fingertips.
+    </p>
+
+    <div class="welcome-buttons">
+      <a href="#services" class="btn btn-primary">Explore Our Work</a>
+      <a href="#contact" class="btn btn-primary">Get in Touch</a>   
+ </div>
+    
+  </div>
+</section>
+
+
+
+
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="services-container">
+      <div class="service-card">
+        <img src="images/ai-ml-icon.png" alt="AI & ML" />
+        <h3>AI & Machine Learning</h3>
+        <p>Custom models, predictive analytics, chatbots, computer vision, NLP, and automation pipelines.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/data-science-icon.png" alt="Data Science" />
+        <h3>Data Science & Analytics</h3>
+        <p>EDA, dashboards, visualization, annotation, and enterprise-grade data insights.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/web-dev-icon.png" alt="Web Development" />
+        <h3>Web Development</h3>
+        <p>Full-stack web apps, e-commerce, AI dashboards, and high-performance scalable solutions.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/design-icon.png" alt="Design" />
+        <h3>Creative & UI/UX Design</h3>
+        <p>Modern UI/UX, branding, AI-generated graphics, portfolios, and presentations.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/blogging-icon.png" alt="Blogging" />
+        <h3>Blogging & Content Creation</h3>
+        <p>SEO-friendly articles, tutorials, AI content generation, and social media content planning.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/training-icon.png" alt="Training" />
+        <h3>Training & Tutoring</h3>
+        <p>AI, Web, and Data Science courses, workshops, one-on-one mentoring sessions.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/automation-icon.png" alt="Automation" />
+        <h3>Automation & Scripting</h3>
+        <p>Python scripts, process automation, bots, and task schedulers for efficiency.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/niche-combo-icon.png" alt="Creative Design" />
+        <h3>Creative & Digital Design</h3>
+        <p>Logo design, branding kits, motion graphics, and futuristic UI concepts.</p>
+      </div>
+  </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section id="team" class="section team-section">
+  <h2>Meet Our Team</h2>
+  <div class="team-container">
+      <div class="team-card">
+        <img src="images/madhu.jpeg" alt="Madhumitha">
+        <h2>Madhu Mitha</h2>
+        <h4>Frontend Developer</h4>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/g-madhu-mitha-aa45b22a2" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="images/mani.jpeg" alt="Mani">
+        <h2>Mani Shankar Raju</h2>
+        <h4>UI/UX Designer</h4>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/mani-shankar-raju-r-6465b12a2" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="images/mervin.jpg" alt="Mervin">
+        <h2>Mervin Anto Santhosh</h2>
+        <h4>SEO & Marketing</h4>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/mervin-anto-santhosh-a-b7a4152a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="images/marce.jpeg" alt="Marcellus">
+        <h2>Marcellus Jesudasan</h2>
+        <h4>Backend Developer</h4>
+        <div class="social-links">
+          <a href="http://linkedin.com/in/marcellus-jesudasan-47a5b22a2" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm" class="contact-form">
+    <input type="text" id="name" name="name" placeholder="Your Name" required/>
+    <input type="email" id="email" name="email" placeholder="Your Email" required/>
+    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Notification Popup -->
+<div id="notification"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js" ></script>
+<script src="./mail.js"></script>
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-icons">
+    <a href="https://mail.google.com/mail/?view=cm&to=webgenics2025@gmail.com" target="_blank">
+  <i class="fas fa-envelope"></i>
+</a>
+    <a href="https://www.linkedin.com/in/webgenics-freelancer-a18020381" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+   <a href="https://www.instagram.com/webgenics2025/?igsh=aGs0b3U2MmN4NGRx#" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-instagram"></i>
+</a>
+
+  </div>
+  <p>&copy; 2025 WebGenics | Crafted with Passion & AI 🚀</p>
+</footer>
+
+</body>
+</html>
